@@ -9,7 +9,6 @@ import decimal
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator # for Class Based Views
 
-
 # Create your views here.
 
 def home(request):
