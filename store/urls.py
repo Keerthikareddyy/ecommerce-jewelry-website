@@ -8,6 +8,7 @@ app_name = 'store'
 
 
 urlpatterns = [
+    
     path('', views.home, name="home"),
     # URL for Cart and Checkout
     path('add-to-cart/', views.add_to_cart, name="add-to-cart"),
